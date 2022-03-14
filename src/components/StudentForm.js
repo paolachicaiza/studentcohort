@@ -55,16 +55,6 @@ export default function StudentForm() {
             <br/>  
             <div>
                 <label>
-                    Status:
-                </label>
-                <br/>
-                <input 
-                    value={student.statusx || ""} 
-                    onChange={event=>setStudent(student=>({...student, statusx:event.target.value}))}/>               
-            </div>
-            <br/>
-            <div>
-                <label>
                     Age:
                 </label>
                 <br/>

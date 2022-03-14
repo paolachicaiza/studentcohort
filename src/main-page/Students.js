@@ -34,9 +34,11 @@ const Students = ({title}) => {
                 <img src={photo} className="photo" alt="photo"/>                    
             </div>
             <br/>
+            <br/>
             <Link to={`/student/`}>
                 Add Student
             </Link>
+            <br/>
             <br/>
             {students.map(student =>(<p>
                 <Link to={`/student/${student.id}`} key={student.id}>{
