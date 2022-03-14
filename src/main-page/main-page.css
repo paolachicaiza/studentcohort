@@ -1,0 +1,21 @@
+header{
+  background-color: #002254;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  height: 120px;                                                                                                                                 ;
+}
+
+.subtitle{
+  font-style: normal;
+  font-size: xx-large;
+  color:white;
+}
+
+.title {
+  font-style: normal;
+  font-size: xx-large;
+  color:#002254;
+  align-content: center;
+}
